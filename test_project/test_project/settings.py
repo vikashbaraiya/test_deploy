@@ -81,11 +81,11 @@ SESSION_SERIALIZER = "django.contrib.sessions.serializers.PickleSerializer"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'anurag',
+        'NAME': 'vikash',
         'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'PASSWORD': 'helloroot',
+        'HOST': 'vikash1.cyybkokf4not.ap-northeast-1.rds.amazonaws.com',
+        'PORT': '3308',
         'POOL_OPTIONS': {'POOL_SIZE': 10, 'MAX_OVERFLOW': 10}
     }
 }
